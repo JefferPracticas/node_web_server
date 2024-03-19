@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-web-server",
+  "version": "0.0.1",
+  "description": "Proyecto de web Server para NodeJS",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JefferPracticas/node_json_server_db.git"
+  },
+  "author": "Jeffer Ruiz Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JefferPracticas/node_json_server_db/issues"
+  },
+  "homepage": "https://github.com/JefferPracticas/node_json_server_db#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.18.3"
+  }
+}
